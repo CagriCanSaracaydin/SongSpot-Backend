@@ -1,2 +1,2 @@
-# songs
+# SongSpot: Imdb for Music Enthusiasts
  
