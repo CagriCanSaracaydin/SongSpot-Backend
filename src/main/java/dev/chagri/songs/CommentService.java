@@ -13,7 +13,6 @@ public class CommentService {
 
     /**
      * Fetch all comments from the database.
-     *
      * @return List of all comments
      */
     public List<Comment> findAllComments() {
@@ -22,7 +21,6 @@ public class CommentService {
 
     /**
      * Fetch a specific comment by its ID.
-     *
      * @param id The ID of the comment to retrieve
      * @return An Optional containing the comment if found, or an empty Optional if not found
      */
@@ -32,7 +30,6 @@ public class CommentService {
 
     /**
      * Add a new comment to the database.
-     *
      * @param comment The Comment object to add
      * @return The Comment object after it has been saved (with updated ID)
      */
@@ -42,7 +39,6 @@ public class CommentService {
 
     /**
      * Fetch all comments for a specific song.
-     *
      * @param songId The ID of the song for which comments are to be retrieved
      * @return List of comments associated with the specified song
      */
